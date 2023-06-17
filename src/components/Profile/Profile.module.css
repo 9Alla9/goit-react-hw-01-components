@@ -15,14 +15,14 @@
   flex-direction: column;
   align-items: center;
   width: inherit;
-  border-bottom: #926b7898 solid 2px;
+  border-bottom: #70425198 solid 2px;
 }
 
 .avatar {
   width: 300px;
   box-shadow: 0 0 3px 0px #0000004d;
   border-radius: 50%;
-  background-color: #e7eeeeed;
+  background-color: hsla(180, 55%, 53%, 0.929);
   padding: 20px 10px 0px 10px;
   margin-bottom: 15px;
 }
