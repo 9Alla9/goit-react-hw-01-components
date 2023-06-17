@@ -1,6 +1,6 @@
 .profile {
   width: 1000px;
-  background-color: #ffffff;
+  background-color: #f7f7f7ec;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,7 +54,7 @@
   margin: auto;
   padding: 0;
   width: inherit;
-  background-color: #7e6f7449;
+  background-color: #bfb3b77a;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -72,12 +72,12 @@
   margin-right: 3px;
   font-weight: 700;
   font-size: 16px;
-  color: #524a4d8b;
+  color: #38a21e;
   margin-bottom: 5px;
 }
 
 .quantity {
   font-weight: 700;
   font-size: 16px;
-  color: #524a4d;
+  color: #0d380dcb;
 }
