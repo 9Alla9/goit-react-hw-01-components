@@ -6,6 +6,7 @@
   align-items: center;
   padding-top: 15px;
   width: 370px;
+  margin: auto;
   box-shadow: 0 0 10px #4c9f9fed;
   border-radius: 10px;
 }

@@ -1,13 +1,18 @@
 .statistics {
-  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  box-shadow: 0 0 10px #c6cccced;
   margin: auto;
-  border: solid 1px rgb(211, 221, 221);
+  width: 370px;
+  margin-top: 15px;
 }
 
 .title {
-  font-size: 16p;
-  color: #333333;
-  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #524a4d;
   margin-top: 30px;
   margin-bottom: 25px;
 }
@@ -15,12 +20,16 @@
 .stat_list {
   height: 60px;
   display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 370px;
   list-style: none;
 }
 
 .item {
   width: 70px;
   border: solid 1px teal;
+  background-color: rgba(17, 171, 242, 0.635);
 }
 
 .label {
