@@ -1,43 +1,44 @@
-.friends {
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  flex-direction: column;
+.friendList {
+  box-sizing: border-box;
   width: 370px;
   margin: auto;
-}
-
-.friends__list {
   display: flex;
   flex-direction: column;
-  width: inherit;
   padding: 0;
-}
-.friends__item {
-  display: flex;
-  align-items: center;
-  box-shadow: 0 0 10px #c6cccced;
-  padding: 20px;
+  margin-top: 15px;
 }
 
-.friends__status {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.statusOffline,
+.statusOnline {
   margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
-.true {
-  background-color: green;
-}
-.false {
+
+.statusOffline {
   background-color: red;
+}
+
+.statusOnline {
+  background-color: #44b048;
 }
 
 .avatar {
   width: 100px;
   margin-right: 10px;
+  border-radius: 5px;
 }
-.friends__name {
+
+.name {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 15px;
